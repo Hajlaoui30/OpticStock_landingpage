@@ -1,10 +1,9 @@
 import LandingPage from './LandingPage';
-import './index.css';
 
 function App() {
   const handleGoToApp = () => {
-    // Redirige vers votre instance applicative 3D
-    window.location.href = 'http://localhost:5173';
+    // Redirige directement vers l'application 3D en ligne
+    window.location.href = 'https://hajlaoui30.github.io/OptiStock-3D/';
   };
 
   return <LandingPage onEnterApp={handleGoToApp} />;

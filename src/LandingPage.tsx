@@ -4,6 +4,9 @@
 // export interface LandingPageProps {
 //   onEnterApp?: () => void;
 //    githubUrl?: string;
+
+
+
 // }
 
 // interface Embedded3DViewerProps {
@@ -688,7 +691,8 @@ interface Embedded3DViewerProps {
 
 export default function LandingPage({ 
   onEnterApp,
-  githubUrl = 'https://github.com/Amel-Rebhi/OpticStock_landingpage' 
+ // githubUrl = 'https://github.com/Amel-Rebhi/OpticStock_landingpage' 
+ githubUrl = 'https://hajlaoui30.github.io/OptiStock-3D/'
 }: LandingPageProps): React.JSX.Element {
   const [email, setEmail] = useState<string>('');
   const [siteName, setSiteName] = useState<string>('');
