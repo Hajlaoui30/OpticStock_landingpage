@@ -693,7 +693,7 @@ export default function LandingPage({
   onEnterApp = () => {
     window.location.href = 'https://hajlaoui30.github.io/OptiStock-3D/';
   },
-  githubUrl = 'https://github.com/Amel-Rebhi/OpticStock_landingpage'
+  githubUrl = 'https://github.com/Hajlaoui30/OpticStock_landingpage'
 }: LandingPageProps): React.JSX.Element {
   const [email, setEmail] = useState<string>('');
   const [siteName, setSiteName] = useState<string>('');
